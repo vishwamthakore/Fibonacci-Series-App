@@ -4,10 +4,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-	a=0
-	return render_template("home.html",ans=a)
+	return render_template("home.html")
 
-
-# app.run(debug=True)
+app.run(debug=True)
 
 
