@@ -50,6 +50,6 @@ def hello():
 	return render_template("home.html",ans=a)
 
 
-app.run(debug=True)
+# app.run(debug=True)
 
 
